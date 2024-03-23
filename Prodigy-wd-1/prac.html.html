@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...your-sha512-hash-here..." crossorigin="anonymous" />
+<link rel="stylesheet" href="./style.css">
+<style>
+    @keyframes afl {
+        0%{
+            transform: translateX(-100%);
+        }
+        100%{
+            transform: translateX(0%);
+        }
+    }
+    @keyframes afr {
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(0%);
+        }
+    }
+    .navbar{
+        animation: afl 3s ease-out;
+    }
+    @keyframes afu {
+        0%{
+            transform: translateY(-100%);
+        }
+        100%{
+            transform: translateY(0%);
+        }
+    }
+    @keyframes afb {
+        0%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(0%);
+        }
+    }
+    header{
+        animation: afu 3s ease-out;
+    }
+    .img-content{
+        animation: afl 3s ease-in-out;
+    }
+    .col-md-5 h1{
+        animation: afu 3s ease-in-out;
+    }
+    .col-md-5 p{
+        animation: afl 3s ease-out;
+    }
+    .col-md-7 img{
+        animation: afr 3s ease-in-out;
+    }
+    .card-img-top{
+        animation: afr 3s ease-in-out;
+    }
+    .card-title{
+        animation: afl 3s ease-in-out;
+    }
+    .card-text{
+        animation: afl 3s ease-in-out;
+    }
+    .card{
+        transition: all 0.5s ease-in-out;
+    }
+    .card:hover{
+        transform: scale(0.95);
+    }
+    .content2:hover{
+        transform: scale(0.95);
+    }
+    .content2{
+        transition: all 0.5s ease-in-out;
+    }
+    .c1{
+        animation: afl 03s ease-out;
+    }
+    .c2{
+        animation: afu 03s ease-out;
+    }
+    .c3{
+        animation: afr 03s ease-out;
+    }
+    .c4{
+        animation: afl 03s ease-out;
+    }
+    .c5{
+        animation: afb 03s ease-out;
+    }
+    .c6{
+        animation: afr 03s ease-out;
+    }
+    .item{
+        animation: afr 03s ease-in-out;
+    }
+    .item2{
+        animation: afl 03s ease-in-out;
+    }
+    .list-group-item:hover{
+        transform: scale(0.95);
+    }
+    .list-group-item{
+        transition: all 0.5s ease-in-out ;
+    }
+    
+
+    @media (min-width:460px) and (max-width:768px) {
+        .navbar-nav{
+            background-color: rgba(0, 0, 0, 0.438);
+            margin: 0%;
+        }
+        .nav-link{
+            color: white;
+        }
+        .img-content{
+            top: 50%;
+            left: 5%;
+        }
+        
+    }
+    .header-i{
+       border-radius: 20%;
+    }
+</style>
+</head>
+<body>
+<header>
+  
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="navbar navbar-expand-md pt-2">
+                    <h1 class="navbar-brand">Hassan Chaudhry</h1>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mynav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="./about.html" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="./testimonial.html" class="nav-link">Testimonials</a></li>
+                        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contact Us</a>
+                        <div class="dropdown-menu">
+                            <a href="./whatsap.html" class="dropdown-item">Whatsap</a>
+                            <a href="#" class="dropdown-item">Facebook</a>
+                            <a href="#" class="dropdown-item">Twitter</a>
+                        </div>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="img-content">
+        <p>Hey Wellcome to our Website. Lets explore new ideas for your Final Year Projects</p>
+        <a href="#" class="btn btn-outline-success" id="btn">Explore us</a>
+    </div>
+</header>
+<div class="container">
+    <div class="row row1">
+        <div class="col-md-5">
+         <h1>About Us</h1>
+         <p class="about-txt" id="about">Welcome to HC Developer, your go-to destination for innovative final year project ideas. At HC Developer, we understand the significance of your final year project- it's not just a requirement, but a stepping stone to your future success. Our platform is designed to inspire and guide you through a plethora of unique and cutting-edge project concepts across various disciplines. Whether you're passionate about technology, engineering, or any other field, we provide a curated selection of ideas to fuel your creativity. Explore, learn, and embark on a journey of academic excellence with HC Developer. Your final year project starts here!</p>
+        </div>
+        <div class="col-md-7">
+        <img src="./web_developer.jpeg.jpg" class="img-fluid rounded" id="hi" alt="this is my image">
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <div class="content">
+            <h1>Our Services</h1>
+        </div>
+        <div class="row row2">
+            <div class="col-md-4 col-sm-12 mt-2">
+                <div class="card">
+                    <img src="./A-web-developer-working-on-designing-a-website.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Web Developer</h2>
+                        <p class="card-text">Here Is an amazing oppurtunities lets join us and work together in professional team</p>
+                        <a href="#" class="btn btn-outline-success" id="btn">Apply Here</a>
+                    </div>   
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mt-2">
+                <div class="card">
+                    <img src="./A-web-developer-working-on-designing-a-website.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Ios Developer</h2>
+                        <p class="card-text">Here Is an amazing oppurtunities lets join us and work together in professional team</p>
+                        <a href="#" class="btn btn-outline-success" id="btn">Apply Here</a>
+                    </div>   
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mt-2">
+                <div class="card">
+                    <img src="./A-web-developer-working-on-designing-a-website.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Project Ideas</h2>
+                        <p class="card-text">Here Is an amazing oppurtunities lets join us and explore ideas as a final year student</p>
+                        <a href="#" class="btn btn-outline-success" id="btn">Explore Here</a>
+                    </div>   
+                </div>
+            </div>
+</div>
+</div>
+<div class="container">
+<div class="row row3">
+    <div class="content c11">
+        <h1>Our Featured Programs</h1>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="content2 c1">
+        <h3>Website Development</h3>
+      </div>
+    </div>
+     <div class="col-md-4 col-sm-12">
+      <div class="content2 c2">
+        <h3>Artificial Development</h3>
+      </div>
+    </div>
+     <div class="col-md-4 col-sm-12">
+      <div class="content2 c3">
+        <h3>Project Development</h3>
+      </div>
+    </div>
+     <div class="col-md-4 col-sm-12">
+      <div class="content2 c4">
+        <h3>IDeas Development</h3>
+      </div>
+    </div>
+     <div class="col-md-4 col-sm-12">
+      <div class="content2 c5">
+        <h3>Android Development</h3>
+      </div>
+    </div>
+     <div class="col-md-4 col-sm-12">
+      <div class="content2 c6">
+        <h3>Ios Development</h3>
+      </div>
+    </div>
+</div>
+</div>
+<div class="container-fluid">
+    <div class="content c11 c22">
+        <h1>Programs Details</h1>
+    </div>
+     <div class="row pl-2 pr-2">
+        <table class="table table-hover table-responsive mt-2 table-dark thead-light border">
+            <thead class="table-light">
+             <tr>
+                <th>Program Name</th>
+                <th>Duration</th>
+                <th>Status</th>
+                <th>Fees</th>
+                <th>Lead By</th>
+             </tr>
+            </thead>
+            <tbody>
+               <tr class="rs">
+                <td>Website Development</td>
+                <td>6 Months</td>
+                <td>Registered</td>
+                <td>20000</td>
+                <td>Ahsan Raza</td>
+               </tr>
+               <tr>
+                <td>Intellegence Development</td>
+                <td>6 Months</td>
+                <td>Registered</td>
+                <td>50000</td>
+                <td>Shawaz Rehman</td>
+               </tr>
+               <tr class="rs">
+                <td>Ios Development</td>
+                <td>6 Months</td>
+                <td>Registered</td>
+                <td>30000</td>
+                <td>Nafees Rehman</td>
+               </tr>
+               <tr>
+                <td>Themes Development</td>
+                <td>3 Months</td>
+                <td>Registered</td>
+                <td>10000</td>
+                <td>Mirza Shahzad</td>
+               </tr>
+               <tr class="rs">
+                <td>Wordpress Development</td>
+                <td>6 Months</td>
+                <td>Registered</td>
+                <td>25000</td>
+                <td>Hassan ch</td>
+               </tr>
+            </tbody>
+             </table>
+     </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="content c11 c22">
+            <h1>Instructors Available</h1>
+        </div>
+        <div class="col">
+            <ul class="list-group">
+                <li class="list-group-item item2">Ahsan Raza</li>
+                <li class="list-group-item item">Shawaz Ur Rehman</li>
+                <li class="list-group-item item2">Muhammad Nafees</li>
+                <li class="list-group-item item">Mirza Shahzad </li>
+                <li class="list-group-item item2">Ali Raza</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container-fluid foot">
+    <div class="row">
+        <div class="col">
+            <div class="fb">
+                <img src="./360_F_330336896_6KNBFJ8Yihw3WAqPE2k8IGsPQw3VE34A.jpg" class="img-fluid imgf">
+                <h3>Hassan Chaudhry</h3>
+            </div>
+            <div class="fb fb1">
+                    <span class="fas fa-map-marker-alt as"><p class="d-inline ">Barket Market Lahore</p></span>
+            </div>
+            <div class="fb fb1">
+             <span class="fas fa-mobile-alt  as " ><p class="d-inline">923157816705</p></span>
+             <span class="fas fa-envelope d-inline as"><p class="d-inline">ahsanrazasoftware@gmail.com</p></span>
+                </div>
+              <div class="fb fb1">
+                <h4>Lets Discover Your Future Goals. Lets work together to make you Future proof.</h4>
+              </div>
+            </div>
+                <div class="fb fb1">    
+                <h2 class="card-subtitle">Join Us On</h2>
+                <div>
+                <span class="fab fa-facebook xx"></span>
+                <span class="fab fa-twitter xx"></span>
+                <span class="fab fa-instagram xx"></span>
+                <span class="fab fa-yahoo xx"></span>
+            </div>
+            </div>
+            <div class="fb fb1">
+             <div class="form">
+                <input type="Email" placeholder="Enter Your Email" class="form-control d-inline es">
+                <button class="btn btn-outline-success d-inline form-control bs">Submit</button>
+             </div>
+            </div>
+        </div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>

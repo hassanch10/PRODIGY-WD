@@ -1,0 +1,51 @@
+body{
+    background-color: gray;
+}
+header{
+    background-color: black;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.container1{
+    margin-top: 20px;
+}
+.container1 h2{
+    color: white;
+    text-transform: uppercase;
+}
+.btn{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 37%;
+}
+.container2{
+    background-color: rgba(0, 0, 0, 0.527);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+.img-fluid{
+    padding: 0%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+.col-md-8{
+    padding: 0px;
+}
+h5{
+    color: white;
+    text-transform: uppercase;
+}
+label{
+    color: white;
+}
+

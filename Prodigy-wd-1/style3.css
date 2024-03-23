@@ -1,0 +1,32 @@
+
+body{
+    background-color: gray;
+}
+header{
+    background-color: black;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+
+.container1{
+    margin-top: 20px;
+}
+.container2{
+    background-color: rgba(0, 0, 0, 0.774);
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+h5{
+    color: white;
+}
